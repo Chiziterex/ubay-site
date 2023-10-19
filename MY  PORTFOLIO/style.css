@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-color: rgba(255, 235, 214, 1);
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 65.2%;
+    scroll-padding-top: 6rem;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 3%;
+    background: transparent;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+
+.action {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    margin: 0 2rem;
+}
+
+.action button {
+    background-color: rgba(253, 98, 98, 1);
+    border: 1px solid #000;
+    padding: 1rem 1.75rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.75rem;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+}
+
+
+/* SECTION */
+section {
+    padding: 2rem 3%;
+}
+
+/* home */
+section .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* /* section .main .content{
+  flex:1 1 40rem;
+  margin:10rem 1rem 0;
+  margin-top:6rem;
+} */
+
+section .main .content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+section .main .content p {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+section .main .content .buttons {
+    display: flex;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+section .main .content .buttons .btn {
+    background-color: rgba(253, 98, 98, 1);
+    border: 1px solid #000;
+    color: #000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.75rem;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+}
+
+section .main .content .buttons .play-button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main .content .buttons .play-button a {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.75rem;
+    box-shadow: rgba(255, 235, 214, 1) 5px 5px 0px -1px, #000 5px 5px
+}
+
+section .main .content .buttons .play-button small {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 0.3rem;
+}
+
+/* section .main .main-image{
+  flex:1 1 40rem;
+  position :;
+} */
+
+section .main .main-image img {
+    overflow: hidden;
+    border-radius: 1.5rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* SECOND SECTION */
+
+.box .content .text {
+    font-size: 2rem;
+}
+
+.box .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffa840;
+    border: 1px solid #000;
+    color: #000;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    box-shadow: -5px -5px 0 #000
+}
+
+/* second section */
+
+/* .second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:95%;
+    height:60vh;
+    margin: 5rem auto;
+    overflow: hidden;
+} */
+
+
+.second {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.second .box {
+    width: fit-content;
+    height: 28rem;
+}
+
+.second .box.box-2 {
+    background-color: rgba(253, 98, 98, 1);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 0 #000
+}
+
+.second .box img {
+    width: 200px;
+    object-fit: contain;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+.second .box h4 {
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0;
+    text-transform: capitalize;
+}
+
+.second .box .icon-pack {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.second .box .icon-pack .icons i {
+    color: #ffa840;
+}
+
+.second .box .icon-pack p {
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.second .box .icon-pack2 {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.second .box .icon-pack2 p {
+    font-weight: 700;
+}
+
+.second .box.text {
+    position: relative;
+    height: 20rem;
+    width: 18rem;
+}
+
+.second .box.text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    word-spacing: 0.2rem;
+    color: rgb(3, 5, 83);
+    text-transform: capitalize;
+}
+
+.second .box.text i {
+    margin: 0 0.5rem
+}
+
+/* third section */
+.third {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 2rem
+}
+
+.third .text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1;
+    word-spacing: 0.4rem;
+    text-transform: capitalize;
+}
+
+.third .text p {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 3rem 0;
+}
+
+.third .text .btn {
+    background-color: rgba(253, 98, 98, 1);
+    border: 1px solid #000;
+    color: #000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.75rem;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+    margin: 2rem 0;
+}
+
+.third .image img {
+    overflow: hidden;
+    border-radius: 1.5rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* fourth section */
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    border: 1px solid #000;
+    box-shadow: -5px -5px 0 #000;
+    margin: 5rem;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+}
+
+.fourth .text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    word-spacing: 0.2rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.fourth .text p {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.fourth .text .btn {
+    background-color: rgba(253, 98, 98, 1);
+    border: 1px solid #000;
+    color: #000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.75rem;
+    box-shadow: 5px 5px 0 rgb(0, 0, 0);
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+
+.fourth .image img {
+    width: 30rem;
+    object-fit: contain;
+    border-radius: 2rem;
+}
+
+/* fifth section */
+.fifth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgba(253, 98, 98, 1);
+    padding: 5rem 0;
+}
+
+
+.fifth h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    word-spacing: 0.2rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.fifth p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    /* max-width: ; */
+}
+
+.fifth form .norms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fifth form div:not(.norms) {
+    display: flex;
+}
+
+.fifth form div:not(.norms) input:first-child {
+    flex: 1;
+}
+
+.fifth form input {
+    background-color: rgba(253, 98, 98, 1);
+    padding: 1.5rem 2rem;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.fifth form input[type="submit"] {
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fifth form input:focus:not([type="submit"]) {
+    background-color: rgba(255, 235, 214, 1);
+}
+
+*::placeholder {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+
+@media screen and (max-width:640px) {
+    body {
+        background-color: whitesmoke;
+    }
+
+    html {
+        font-size: 50%;
+    }
+    .navbar {
+        display: none;
+    }
+    .action {
+        gap: 3rem;
+    }
+    
+    .main .main-image img {
+        display: none;
+    }
+    .box .content {
+        background: rgba(255, 235, 214, 1));
+    }
+    .box .content .text {
+        font-size: 1.5rem;
+    }
+    .second .box.text h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .second .box h4 {
+        font-size: 1.5rem;
+        margin: 2rem 0 0 0;
+        text-transform: capitalize;
+    }
+    .third .text h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        word-spacing: 0.4rem;
+    }
+    .third .text p {
+        font-size: 1.75rem;
+    }
+    .fourth {
+        gap: 1rem;
+        margin: 2.5rem;
+    }
+    .fourth .text h1 {
+        font-size: 3rem;
+    }
+    
+    .fourth .text p {
+        margin: 2rem 0;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .fourth .image img {
+        width: 20rem;
+    }
+    *.btn {
+        padding: 1rem 1rem;
+        font-size: 1.5rem;
+    }
+    .third .image img {
+        overflow: hidden;
+        border-radius: 1.5rem;
+        height: 100%;
+        width: 80%;
+    }
+    .fifth p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 0 3rem;
+    }
+    .second .box h4 {
+        font-size: 2rem;
+    }
+    .second .box .icon-pack p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:840px) {
+    html {
+        font-size: 50%;
+    }
+    .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        width: 95%;
+    }
+    /* .second .box {
+        height: 33rem;
+    }
+    .second .box.box-2 {
+        padding: 1rem 2rem;
+    }
+    .second .box img {
+        width: 250px;
+        object-fit: contain;
+    }
+    .second .box h4 {
+        font-size: 2rem;
+    }
+    .second .box .icon-pack p {
+        font-size: 1.5rem;
+    }
+    .second .box.text {
+        width: 30rem;
+        line-height: 7rem;
+    } 
+    .second .box.text h1{
+        font-size: 5rem;
+    } */
+}
+
+@media screen and (max-width:1000px) {}
